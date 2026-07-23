@@ -1,0 +1,6 @@
+google-cloud-bigquery
+faker
+numpy
+pandas
+tqdm
+pyyaml
