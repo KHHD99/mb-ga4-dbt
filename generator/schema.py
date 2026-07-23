@@ -1,21 +1,14 @@
 from google.cloud import bigquery
 
 schema = [
-
 bigquery.SchemaField("event_date","STRING"),
-
 bigquery.SchemaField("event_timestamp","INTEGER"),
-
 bigquery.SchemaField("event_name","STRING"),
-
 bigquery.SchemaField("user_pseudo_id","STRING"),
-
 bigquery.SchemaField("user_id","STRING"),
-
 bigquery.SchemaField("platform","STRING"),
-
 bigquery.SchemaField("stream_id","STRING"),
-
+    
 bigquery.SchemaField(
     "traffic_source",
     "RECORD",
